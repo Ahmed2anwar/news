@@ -1,0 +1,98 @@
+.aside .span {
+    background-color: #c00;
+    font-size: 12px;
+}
+
+h5:hover, 
+h6:hover {
+    color: #c00;
+    cursor: pointer;
+}
+
+.item .btn:hover {
+    background-color: #c00 !important;
+}
+.news img {
+    cursor: pointer;
+}
+
+.news h6:hover {
+    cursor: pointer;
+    color: #c00;
+}
+.main-title {
+    position: relative;
+}
+.main-title::after {
+    content: "";
+    background-color: #c00;
+    position: absolute;
+    top: 10;
+    left: 0;
+    height: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 100px;
+}
+
+article .facebook {
+    background-color: #3b5999;
+    cursor: pointer;
+}
+article .facebook:hover {
+    opacity: 0.9;
+}
+article .twitter {
+    cursor: pointer;
+    background-color: #55acee;
+}
+article .twitter:hover {
+    opacity: 0.9;
+}
+
+article .youtube {
+    cursor: pointer;
+    background-color: #cc181e;
+}
+article .youtube:hover {
+    opacity: 0.9;
+}
+
+article .btn2 {
+    background-color: #c00 !important;
+}
+.tags .btn {
+    font-size: 13px;
+    text-transform: uppercase;
+    border: 1px solid rgb(201, 201, 201) !important;
+}
+.category .box {
+    border: 1px solid rgb(224, 223, 223);
+}
+.category .box .items {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    text-transform: uppercase;
+}
+.category .box .items:hover {
+    background-color: #c00;
+    color: white;
+}
+.category .box .items:hover p {
+    background-color: #c00;
+    padding-left: 35px;
+    color: white;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+}
+.category .box .items p {
+    font-weight: 600;
+    font-size: 13px;
+    padding: 5px 20px;
+}

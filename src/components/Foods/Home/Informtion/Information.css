@@ -1,0 +1,68 @@
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #edecec !important;
+
+}
+.swiper-button-prev:hover{
+    transition: all 1s;
+    color: gainsboro !important;
+    opacity: 1;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.swiper-button-next:hover{
+    transition: all 1s;
+    color: gainsboro !important;
+    opacity: 1;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+
+.bg {
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    will-change: transform;
+}
+
+.bg.bg1 {
+    background-image: url("../../../../public/newsimage20.png");
+}
+.bg.bg3 {
+    background-image: url("../../../../public/newsimage26.png");
+}
+.bg.bg2 {
+    background-image: url("../../../../public/newsimage19.png");
+}
+
+.bg.bg1 .span,
+.bg.bg2 .span,
+.bg.bg3 .span {
+    background-color: #c00;
+    padding: 5px 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.item-info .parg {
+    color: white;
+    background-color: #c00;
+    padding: 5px 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+

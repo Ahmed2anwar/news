@@ -1,0 +1,231 @@
+body {
+    font-family: "Inter", sans-serif !important;
+}
+.foods img,
+.sport img,
+.tech img,
+.fashion img {
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover;
+}
+.foods .image,
+.sport .image,
+.tech .image,
+.fashion .image {
+    width: 100% !important;
+    height: 150px !important;
+}
+
+/* Start styling not found */
+
+.not-found {
+    height: 80vh;
+}
+.not-found h1 {
+    font-size: 10rem;
+    color: rgb(69, 69, 70);
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.not-found h2 {
+    font-size: 2.4rem;
+    color: #1b1c26;
+}
+/* End styling not found section */
+
+.accordion-button:hover {
+    color: #c00 !important;
+}
+.accordion-button:focus {
+    background-color: transparent !important;
+    border: #c00 !important;
+    box-shadow: none !important;
+    color: #c00 !important;
+}
+.accordion-button {
+    font-size: 19px !important;
+    font-weight: 600 !important;
+    background-color: transparent !important;
+    border: #c00 !important;
+    box-shadow: none !important;
+    color: inherit !important;
+}
+/*  Start styling footer section*/
+.footer {
+    background-color: #1b1c26;
+}
+
+.footer .icons .facebook,
+.contact .icons .facebook {
+    cursor: pointer;
+    background-color: #3b5999;
+    padding: 10px 17px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.footer .icons .facebook:hover {
+    color: #3b5999;
+    background-color: transparent;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.footer .icons .twitter,
+.contact .icons .twitter {
+    cursor: pointer;
+    background-color: #55acee;
+    padding: 10px 17px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.footer .icons .twitter:hover {
+    color: #55acee;
+    background-color: transparent;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.footer .icons .linkedin,
+.contact .icons .linkedin {
+    background-color: #0077b5;
+    cursor: pointer;
+    padding: 10px 17px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.footer .icons .linkedin:hover {
+    color: #0077b5;
+    background-color: transparent;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.footer .icons .youtube,
+.contact .icons .youtube {
+    background-color: #cc181e;
+    cursor: pointer;
+    padding: 10px 17px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.footer .icons .youtube:hover {
+    color: #cc181e;
+    background-color: transparent;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.footer .icons .instagram,
+.contact .icons .instagram {
+    cursor: pointer;
+    background-color: #d91cac;
+    padding: 10px 17px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.footer .icons .instagram:hover {
+    color: #d91cac;
+    background-color: transparent;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.footer .item ul li {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.footer .item ul li:hover {
+    padding-left: 5px;
+    color: #cc181e;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+.footer .btn {
+    background-color: #c00;
+    border-color: #c00;
+    padding: 13px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contact input {
+    padding: 10px 15px;
+}
+.contact input:focus {
+    border-color: #c00;
+    box-shadow: none;
+}
+.contact .btn {
+    background-color: #c00;
+    border-color: #c00;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+.footer .btn:hover,
+.contact .btn:hover {
+    background-color: rgba(204, 0, 0, 0.762);
+    border-color: rgba(204, 0, 0, 0.762);
+}
+/* End styling footer */
+
+/* start pag */
+
+.pag .pag-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0.2rem;
+    background-color: transparent;
+    color: #1b1c26;
+    border: 1px solid #1b1c26;
+    cursor: pointer;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.pag .pag-number:hover {
+    color: white;
+
+    background-color: #1b1c26;
+}
+/* end pag */
